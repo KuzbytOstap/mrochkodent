@@ -1,0 +1,11 @@
+// Моделі з'являться разом із задачами бронювання, CRM і CMS.
+// Правила майбутнього запису описані в docs/mvp.md.
+
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}

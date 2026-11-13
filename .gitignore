@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.next/
+coverage/
+*.tsbuildinfo
+.DS_Store
+
+.env
+.env.*
+!.env.example
+
+# Prisma Client генерується командою `prisma generate`
+apps/api/src/generated/

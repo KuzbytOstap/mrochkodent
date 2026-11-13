@@ -1,0 +1,12 @@
+packages:
+  - apps/*
+
+# pnpm 10 не запускає install-скрипти залежностей без явного дозволу.
+onlyBuiltDependencies:
+  - "@prisma/engines"
+  - prisma
+
+ignoredBuiltDependencies:
+  - "@scarf/scarf"
+  - sharp
+  - unrs-resolver
